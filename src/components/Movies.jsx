@@ -13,7 +13,7 @@ const Movies = () => {
   }, []);
 
   return (
-    <div className="w-[100%] h-[100%]">
+    <div className="w-[100%] h-[100%] relative">
       {loading ? (
         <div className="flex justify-center items-center h-full">
           <ColorRing
@@ -27,12 +27,13 @@ const Movies = () => {
           />
         </div>
       ) : (
-        <div className="w-[100%] h-[100%] bg-gradient-to-b from-black opacity-75">
+        <div className="w-[100%] h-[100%] relative">
           <img 
             src="/Assets/Images/movie.jpg" 
             alt="Movies"  
             className='w-full h-full object-cover'
           />
+          <div className="absolute top-0 left-0 w-full h-1/4 bg-gradient-to-b from-gray-900 via-transparent to-transparent"></div>
         </div>
       )}
     </div>
