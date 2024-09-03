@@ -38,9 +38,6 @@ const HomePage = () => {
             <div className="h-full flex w-min-[35%] p-2">
               <Menu />
             </div>
-            <div className="w-[15%] h-full flex items-center p-2">
-              <Settings />
-            </div>
           </div>
           <div className="w-[100%] h-[90%] bg-purple-200">
             <Routes>
@@ -49,6 +46,7 @@ const HomePage = () => {
               <Route path="/tv-shows" element={<TvShow />} />
               <Route path="/sports" element={<Sports />} />
               <Route path="/live" element={<Live />} />
+              <Route path='/settings' element={<Settings />} />
             </Routes>
           </div>
         </div>

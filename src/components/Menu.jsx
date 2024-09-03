@@ -20,6 +20,8 @@ const Menu = () => {
             <Link to="/sports">{t('Sports')}</Link></li>
           <li className='text-black hover:text-blue-950 transition-all duration-300 opacity-75 p-2'>
             <Link to="/live">{t('Live')}</Link></li>
+          <li className='text-black hover:text-blue-950 transition-all duration-300 opacity-75 p-2'>
+            <Link to="/settings">{t('Settings')}</Link></li>
         </ul>
       </nav>
     </div>
