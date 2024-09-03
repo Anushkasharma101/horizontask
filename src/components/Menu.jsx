@@ -10,7 +10,7 @@ const Menu = () => {
       <nav>
         <ul className='flex gap-5 w-[100%] h-[100%] font-semibold text-2xl items-center p-1'>
           <li className='text-black hover:text-blue-950 transition-all duration-300 opacity-75 p-2'>
-            <Link to="/home">{t('Home')}</Link>
+            <Link to="/">{t('Home')}</Link>
           </li>
           <li className='text-black hover:text-blue-950 transition-all duration-300 opacity-75 p-2'>
             <Link to="/movies">{t('Movies')}</Link></li>

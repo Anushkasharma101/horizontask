@@ -41,7 +41,7 @@ const HomePage = () => {
           </div>
           <div className="w-[100%] h-[90%] bg-purple-200">
             <Routes>
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/movies" element={<Movies />} />
               <Route path="/tv-shows" element={<TvShow />} />
               <Route path="/sports" element={<Sports />} />
